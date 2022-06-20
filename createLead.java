@@ -61,6 +61,6 @@ public class createLead {
 		WebElement submitButtonElement = driver.findElement(By.name("submitButton"));
 		submitButtonElement.click();
 		
-		driver.getTitle();
+		System.out.println("Next page title is :" + driver.getTitle());	
 }
 }
