@@ -79,6 +79,6 @@ public class DuplicateLead {
 		WebElement createleadButton = driver.findElement(By.className("smallSubmit"));
 		createleadButton.click();
 		
-		String getTitle = driver.getTitle();		
+		System.out.println("Next page title is :" + driver.getTitle());			
 }
 }
