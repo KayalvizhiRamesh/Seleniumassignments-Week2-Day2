@@ -73,5 +73,6 @@ public class EditLead {
 		WebElement updateButtonElement = driver.findElement(By.className("smallSubmit"));
 		updateButtonElement.click();
 		
+		System.out.println("Next page title is :" + driver.getTitle());	
 	}
 }
